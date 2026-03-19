@@ -26,7 +26,7 @@ with the right foundation.
 
 1. **Clone the repo**
 ```bash
-   git clone https://github.com/yourname/kmp-production-starter-lite.git
+   git clone https://github.com/Baharudin78/kmp-production-starter-lite.git
    cd kmp-production-starter-lite
 ```
 
@@ -46,6 +46,8 @@ with the right foundation.
    Open `iosApp/iosApp.xcodeproj` in Xcode → Run ▶️
 
 ## Project Structure
+
+```text
 shared/
 ├── data/           # API calls, DB operations, mappers
 ├── domain/         # Models, repository interfaces, use cases
@@ -53,7 +55,7 @@ shared/
 ├── network/        # Ktor HTTP client setup
 ├── database/       # Room database, entities, DAOs
 └── di/             # Koin dependency injection modules
-
+```
 ## Architecture
 
 This template follows **Clean Architecture** with three layers:
